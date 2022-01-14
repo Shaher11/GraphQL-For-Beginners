@@ -21,11 +21,17 @@ GraphQL is a query language for your API, and a server-side runtime for executin
 - *Seeding data to database*
 
 
-## Setup Steps
+## Setup Steps For New Graphql Project
+- Create new folder for your project as example:  *app*
+- Create new file inside project folder *app/hello.js*
 
-Some basic Installation commands are:
+Package.json Installation:
 ```
-npm install
+npm init -y
+```
+GraphQL Installation:
+```
+npm install graphql --save
 ```
 
 
